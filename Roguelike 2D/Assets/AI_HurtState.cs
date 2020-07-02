@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeadBehaviour : StateMachineBehaviour
+public class AI_HurtState : StateMachineBehaviour
 {
-    private PlayerMovement movementController;
+    private AIMovementScript movementController;
     
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.SetBool("isDead", true);
-        movementController = animator.GetComponent<PlayerMovement>();
+        movementController = animator.GetComponent<AIMovementScript>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
