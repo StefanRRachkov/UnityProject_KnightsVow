@@ -12,12 +12,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/HurtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI_RunState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI_IdleState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DeadBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AICombat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI_WalkState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI_AttackState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -30,10 +33,13 @@
         <option value="$PROJECT_DIR$/Assets/AI_IdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_WalkState.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_RunState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/AI_AttackState.cs" />
         <option value="$PROJECT_DIR$/Assets/HurtBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/AI_AttackState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AICombat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/DeadBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" />
       </list>
     </option>
   </component>
@@ -85,7 +91,7 @@
       <updated>1590324978766</updated>
       <workItem from="1590324983189" duration="592000" />
       <workItem from="1593618121323" duration="2144000" />
-      <workItem from="1593695761692" duration="8766000" />
+      <workItem from="1593695761692" duration="11274000" />
     </task>
     <servers />
   </component>

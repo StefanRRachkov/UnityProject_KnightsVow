@@ -8,7 +8,7 @@ public class AIMovementScript : MonoBehaviour
 {
     [SerializeField] private float distanceToTriggerInterest = 10.0f;
     
-    private Transform pointOfInterest = null;
+    private GameObject pointOfInterest = null;
     private Rigidbody2D rb;
     private Vector2 povDirection = Vector2.zero;
     private Vector2 walkingDirection = Vector2.left;
@@ -28,7 +28,7 @@ public class AIMovementScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         
-        pointOfInterest = GameObject.FindWithTag("Player").transform;
+        pointOfInterest = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class AIMovementScript : MonoBehaviour
     {
         if (pointOfInterest)
         {
-            distanceToPOV = Vector2.Distance(pointOfInterest.position, this.transform.position);
+            distanceToPOV = Vector2.Distance(pointOfInterest.transform.position, this.transform.position);
             if (distanceToPOV <= distanceToTriggerInterest)
             {
                 running = true;
@@ -44,7 +44,7 @@ public class AIMovementScript : MonoBehaviour
             
             if (running)
             {
-                povDirection = pointOfInterest.position - this.transform.position;
+                povDirection = pointOfInterest.transform.position - this.transform.position;
                 velocity = povDirection.normalized * runningSpeed;
             }
             else

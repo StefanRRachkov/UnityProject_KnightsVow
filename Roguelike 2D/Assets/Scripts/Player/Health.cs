@@ -16,10 +16,17 @@ public class Health : MonoBehaviour
         anim.SetInteger("Health", healthPoints);
     }
 
-    void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         this.healthPoints = Mathf.Max(this.healthPoints - (int) damage, 0);
-        
-        OnDamageTaken?.Invoke(this.healthPoints);
+        anim.SetInteger("Health", this.healthPoints);
+        anim.SetTrigger("onHit");
+    }
+    
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.transform.parent != transform && collision.gameObject.CompareTag("Hitbox")) 
+        {
+            TakeDamage(collision.transform.parent.GetComponent<AICombat>().damage);
+        }
     }
 }

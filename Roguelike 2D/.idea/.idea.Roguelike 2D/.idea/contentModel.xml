@@ -10,11 +10,12 @@
         <e p="AI_IdleState.cs" t="Include" />
         <e p="AI_RunState.cs" t="Include" />
         <e p="AI_WalkState.cs" t="Include" />
-        <e p="HurtBehaviour.cs" t="Include" />
+        <e p="DeadBehaviour.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="Base" t="Include">
               <e p="AICombat.cs" t="Include" />
+              <e p="AiHealth.cs" t="Include" />
               <e p="AIMovementScript.cs" t="Include" />
             </e>
           </e>
