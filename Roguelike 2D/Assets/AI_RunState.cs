@@ -5,7 +5,9 @@ using UnityEngine;
 public class AI_RunState : StateMachineBehaviour
 {
     private AIMovementScript movementController;
-
+    
+    [SerializeField]
+    private float range = 2.0f;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -15,7 +17,7 @@ public class AI_RunState : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (movementController.distanceToPOV <= 2.0f)
+        if (movementController.distanceToPOV <= range)
         {
             animator.SetTrigger("isAttacking");
         }

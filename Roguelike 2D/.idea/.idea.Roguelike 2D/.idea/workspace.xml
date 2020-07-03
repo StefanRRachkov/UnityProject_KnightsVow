@@ -35,17 +35,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_IdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_WalkState.cs" />
-        <option value="$PROJECT_DIR$/Assets/AI_RunState.cs" />
         <option value="$PROJECT_DIR$/Assets/HurtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_AttackState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AICombat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/DeadBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_HurtState.cs" />
         <option value="$PROJECT_DIR$/Assets/AIDeadBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/AI_RunState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +97,7 @@
       <updated>1590324978766</updated>
       <workItem from="1590324983189" duration="592000" />
       <workItem from="1593618121323" duration="2144000" />
-      <workItem from="1593695761692" duration="19770000" />
+      <workItem from="1593695761692" duration="21041000" />
     </task>
     <servers />
   </component>

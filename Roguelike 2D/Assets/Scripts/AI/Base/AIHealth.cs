@@ -21,9 +21,12 @@ public class AIHealth : MonoBehaviour
         }
         
         private void OnTriggerEnter2D(Collider2D collision) {
-            if (collision.transform.parent.CompareTag("Player") && collision.gameObject.CompareTag("Hitbox")) 
+            if (collision.transform.parent.CompareTag("Player"))
             {
-                TakeDamage(collision.transform.parent.GetComponent<PlayerCombat>().damage);
+                if (collision.gameObject.CompareTag("Hitbox"))
+                {
+                    TakeDamage(collision.transform.parent.GetComponent<PlayerCombat>().damage);
+                }
             }
         }
 }

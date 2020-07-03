@@ -7,13 +7,18 @@ using UnityEngine.UIElements;
 public class CameraControl : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] newPositions;
+    private Transform[] newPositions;
     
     private float vertExtent;
     private float horzExtent;
      
     void Start()
     {
+        for (int index = 0; index < transform.childCount; index++)
+        {
+            newPositions[index] = transform.GetChild(index);
+        }
+        
         vertExtent = this.GetComponent<Camera>().orthographicSize; 
         horzExtent = vertExtent * Screen.width / Screen.height;
     }
@@ -29,12 +34,12 @@ public class CameraControl : MonoBehaviour
                 {
                     if (other.transform.position.y > transform.position.y && newPosition.name == "T_CameraPosition")
                     {
-                        transform.position = newPosition.transform.position;
+                        transform.position = newPosition.position;
                         break;
                     }
                     else if (other.transform.position.y < transform.position.y && newPosition.name == "B_CameraPosition")
                     {
-                        transform.position = newPosition.transform.position;
+                        transform.position = newPosition.position;
                         break;
                     }
                 }
@@ -43,12 +48,12 @@ public class CameraControl : MonoBehaviour
                 {
                     if (other.transform.position.x > transform.position.x && newPosition.name == "R_CameraPosition")
                     {
-                        transform.position = newPosition.transform.position;
+                        transform.position = newPosition.position;
                         break;
                     }
                     else if (other.transform.position.x < transform.position.x && newPosition.name == "L_CameraPosition")
                     {
-                        transform.position = newPosition.transform.position;
+                        transform.position = newPosition.position;
                         break;
                     }
                 }
