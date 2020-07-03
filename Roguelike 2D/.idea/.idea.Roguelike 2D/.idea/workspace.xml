@@ -26,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/AI_WalkState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI_AttackState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MenuController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,7 +98,7 @@
       <updated>1590324978766</updated>
       <workItem from="1590324983189" duration="592000" />
       <workItem from="1593618121323" duration="2144000" />
-      <workItem from="1593695761692" duration="21041000" />
+      <workItem from="1593695761692" duration="21634000" />
     </task>
     <servers />
   </component>
