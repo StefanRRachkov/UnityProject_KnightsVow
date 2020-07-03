@@ -56,9 +56,9 @@
         <option value="$PROJECT_DIR$/Assets/Spawn.cs" />
         <option value="$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/HealthItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Health Potion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Items/HealthPotion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/HealthFiller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Base/CameraControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/HealthPotion.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +111,7 @@
       <workItem from="1590324983189" duration="592000" />
       <workItem from="1593618121323" duration="2144000" />
       <workItem from="1593695761692" duration="22220000" />
-      <workItem from="1593775382873" duration="8399000" />
+      <workItem from="1593775382873" duration="9231000" />
     </task>
     <servers />
   </component>

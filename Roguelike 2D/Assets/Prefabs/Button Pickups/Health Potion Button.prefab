@@ -156,4 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abb17ac30406c5246b2d7ff4078fa290, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthEffect: {fileID: 1311468735239996, guid: 92d4a05582811b54eba0350c72015308,
+    type: 3}
   healthBoost: 10
