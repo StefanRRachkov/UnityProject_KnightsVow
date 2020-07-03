@@ -6,6 +6,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private int healthPoints = 100;
+    public int maxHealth;
     private Animator anim;
 
     public Action<int> OnDamageTaken;
@@ -14,6 +15,7 @@ public class Health : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         anim.SetInteger("Health", healthPoints);
+        maxHealth = healthPoints;
     }
 
     public void TakeDamage(float damage)
@@ -21,6 +23,8 @@ public class Health : MonoBehaviour
         this.healthPoints = Mathf.Max(this.healthPoints - (int) damage, 0);
         anim.SetInteger("Health", this.healthPoints);
         anim.SetTrigger("onHit");
+        
+        OnDamageTaken?.Invoke(this.healthPoints);
     }
     
     private void OnTriggerEnter2D(Collider2D collision) {

@@ -12,21 +12,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/HealthItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI_HurtState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI_RunState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI_IdleState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AIDeadBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DeadBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AICombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI_WalkState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI_AttackState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MenuController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Items/HealthPotion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthFiller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Base/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/Inventory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/Pickup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,13 +37,28 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_AttackState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AICombat.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/DeadBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_HurtState.cs" />
         <option value="$PROJECT_DIR$/Assets/AIDeadBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_RunState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Cursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthFiller.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
+        <option value="$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Pickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Spawn.cs" />
+        <option value="$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/HealthItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/Health Potion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/HealthPotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/HealthFiller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Base/CameraControl.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +110,8 @@
       <updated>1590324978766</updated>
       <workItem from="1590324983189" duration="592000" />
       <workItem from="1593618121323" duration="2144000" />
-      <workItem from="1593695761692" duration="21634000" />
+      <workItem from="1593695761692" duration="22220000" />
+      <workItem from="1593775382873" duration="8399000" />
     </task>
     <servers />
   </component>
@@ -112,7 +125,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

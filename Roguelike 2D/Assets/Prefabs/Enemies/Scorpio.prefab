@@ -175,8 +175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceToTriggerInterest: 5
-  walkingSpeed: 3
-  runningSpeed: 6
+  walkingSpeed: 2.5
+  runningSpeed: 5
   running: 0
   distanceToPOV: 0
 --- !u!95 &5659155356189147867

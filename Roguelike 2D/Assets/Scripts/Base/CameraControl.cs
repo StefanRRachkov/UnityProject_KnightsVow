@@ -6,11 +6,14 @@ using UnityEngine.UIElements;
 
 public class CameraControl : MonoBehaviour
 {
-    [SerializeField]
-    private Transform[] newPositions;
+    [SerializeField] private Transform[] newPositions;
+
+    [SerializeField] private float smoothSpeed = 0.125f;
     
     private float vertExtent;
     private float horzExtent;
+
+    private Vector3 desiredPosition;
      
     void Start()
     {
@@ -18,10 +21,23 @@ public class CameraControl : MonoBehaviour
         {
             newPositions[index] = transform.GetChild(index);
         }
+
+        desiredPosition = transform.position;
         
         vertExtent = this.GetComponent<Camera>().orthographicSize; 
         horzExtent = vertExtent * Screen.width / Screen.height;
     }
+
+    private void LateUpdate()
+    {
+        if (desiredPosition != transform.position)
+        {
+            Vector3 smoothedPosition =
+                Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.fixedDeltaTime);
+            transform.position = smoothedPosition;
+        }
+    }
+
     // Update is called once per frame
     private void OnTriggerExit2D(Collider2D other)
     {
@@ -34,12 +50,12 @@ public class CameraControl : MonoBehaviour
                 {
                     if (other.transform.position.y > transform.position.y && newPosition.name == "T_CameraPosition")
                     {
-                        transform.position = newPosition.position;
+                        desiredPosition = newPosition.position;
                         break;
                     }
                     else if (other.transform.position.y < transform.position.y && newPosition.name == "B_CameraPosition")
                     {
-                        transform.position = newPosition.position;
+                        desiredPosition = newPosition.position;
                         break;
                     }
                 }
@@ -48,12 +64,12 @@ public class CameraControl : MonoBehaviour
                 {
                     if (other.transform.position.x > transform.position.x && newPosition.name == "R_CameraPosition")
                     {
-                        transform.position = newPosition.position;
+                        desiredPosition = newPosition.position;
                         break;
                     }
                     else if (other.transform.position.x < transform.position.x && newPosition.name == "L_CameraPosition")
                     {
-                        transform.position = newPosition.position;
+                        desiredPosition = newPosition.position;
                         break;
                     }
                 }
