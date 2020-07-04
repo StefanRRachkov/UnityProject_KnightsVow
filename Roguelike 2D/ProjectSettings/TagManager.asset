@@ -7,6 +7,11 @@ TagManager:
   - Hitbox
   - Enemy
   - CamerPosition
+  - RoomSpawnPoint
+  - GameManager
+  - StartingRoom
+  - Room
+  - Boss
   layers:
   - Default
   - TransparentFX

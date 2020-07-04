@@ -13,16 +13,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/HealthItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EncounterSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AddRoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EncounterTemplates.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AIMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Base/AICombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Items/HealthPotion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RoomTemplates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameOverState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthFiller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseMenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Slot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Base/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BossEncounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameOverStateManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/Inventory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RoomSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Inventory-Tutorial-Series/InventorySeries/Assets/Scripts/Pickup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -42,10 +54,8 @@
         <option value="$PROJECT_DIR$/Assets/AIDeadBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/AI_RunState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/MenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Cursor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthFiller.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
@@ -59,6 +69,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/HealthFiller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Base/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/HealthPotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/PauseMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/RoomDestroyer.cs" />
+        <option value="$PROJECT_DIR$/Assets/EncounterTemplates.cs" />
+        <option value="$PROJECT_DIR$/Assets/EncounterSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/RoomSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/BossEncounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameOverState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Base/AIHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameOverStateManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/RoomTemplates.cs" />
+        <option value="$PROJECT_DIR$/Assets/AddRoom.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +137,7 @@
       <workItem from="1593618121323" duration="2144000" />
       <workItem from="1593695761692" duration="22220000" />
       <workItem from="1593775382873" duration="9231000" />
+      <workItem from="1593799566869" duration="16265000" />
     </task>
     <servers />
   </component>

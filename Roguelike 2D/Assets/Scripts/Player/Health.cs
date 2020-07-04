@@ -6,6 +6,9 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private int healthPoints = 100;
+    
+    public int HealthPoints => healthPoints;
+    
     public int maxHealth;
     private Animator anim;
 
@@ -21,6 +24,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(float damage)
     {
         this.healthPoints = Mathf.Max(this.healthPoints - (int) damage, 0);
+        this.healthPoints = Mathf.Min(this.healthPoints - (int) damage, maxHealth);
         anim.SetInteger("Health", this.healthPoints);
         anim.SetTrigger("onHit");
         
