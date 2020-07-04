@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
         this.healthPoints = Mathf.Max(this.healthPoints - (int) damage, 0);
         this.healthPoints = Mathf.Min(this.healthPoints - (int) damage, maxHealth);
         anim.SetInteger("Health", this.healthPoints);
-        anim.SetTrigger("onHit");
+        if(damage < 0) anim.SetTrigger("onHit");
         
         OnDamageTaken?.Invoke(this.healthPoints);
     }

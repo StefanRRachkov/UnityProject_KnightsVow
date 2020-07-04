@@ -17,14 +17,14 @@ public class CameraControl : MonoBehaviour
      
     void Start()
     {
-        for (int index = 0; index < transform.childCount; index++)
+        for (int index = 0; index < transform.childCount - 1; index++)
         {
             newPositions[index] = transform.GetChild(index);
         }
 
         desiredPosition = transform.position;
         
-        vertExtent = this.GetComponent<Camera>().orthographicSize; 
+        vertExtent = GameObject.FindWithTag("MainCamera").GetComponent<Camera>().orthographicSize; 
         horzExtent = vertExtent * Screen.width / Screen.height;
     }
 
