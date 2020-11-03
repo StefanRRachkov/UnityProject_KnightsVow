@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1123284776423687699}
   - component: {fileID: 1123284776423687693}
   - component: {fileID: 1123284776423687698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,9 +119,9 @@ GameObject:
   - component: {fileID: 1123284776460885525}
   - component: {fileID: 1123284776460885527}
   - component: {fileID: 1123284776460885524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (27)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,9 +227,9 @@ GameObject:
   - component: {fileID: 1123284776500188156}
   - component: {fileID: 1123284776500188158}
   - component: {fileID: 1123284776500188159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,9 +335,9 @@ GameObject:
   - component: {fileID: 1123284776834712410}
   - component: {fileID: 1123284776834712404}
   - component: {fileID: 1123284776834712405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (32)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -443,9 +443,9 @@ GameObject:
   - component: {fileID: 1123284776844261768}
   - component: {fileID: 1123284776844261770}
   - component: {fileID: 1123284776844261771}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -551,9 +551,9 @@ GameObject:
   - component: {fileID: 1123284776939648373}
   - component: {fileID: 1123284776939648375}
   - component: {fileID: 1123284776939648372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -659,9 +659,9 @@ GameObject:
   - component: {fileID: 1123284777040853990}
   - component: {fileID: 1123284777040853984}
   - component: {fileID: 1123284777040853985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,9 +767,9 @@ GameObject:
   - component: {fileID: 1123284777153902628}
   - component: {fileID: 1123284777153902630}
   - component: {fileID: 1123284777153902631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (29)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,9 +921,9 @@ GameObject:
   - component: {fileID: 1123284777178336826}
   - component: {fileID: 1123284777178336820}
   - component: {fileID: 1123284777178336821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1029,9 +1029,9 @@ GameObject:
   - component: {fileID: 1123284777178666073}
   - component: {fileID: 1123284777178666075}
   - component: {fileID: 1123284777178666072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1137,9 +1137,9 @@ GameObject:
   - component: {fileID: 1123284777194732540}
   - component: {fileID: 1123284777194732542}
   - component: {fileID: 1123284777194732543}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1245,9 +1245,9 @@ GameObject:
   - component: {fileID: 1123284777216367596}
   - component: {fileID: 1123284777216367598}
   - component: {fileID: 1123284777216367599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1353,9 +1353,9 @@ GameObject:
   - component: {fileID: 1123284777315371099}
   - component: {fileID: 1123284777315371093}
   - component: {fileID: 1123284777315371098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1461,9 +1461,9 @@ GameObject:
   - component: {fileID: 1123284777340627403}
   - component: {fileID: 1123284777340627397}
   - component: {fileID: 1123284777340627402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1569,9 +1569,9 @@ GameObject:
   - component: {fileID: 1123284777345727802}
   - component: {fileID: 1123284777345727796}
   - component: {fileID: 1123284777345727797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1677,9 +1677,9 @@ GameObject:
   - component: {fileID: 1123284777429964544}
   - component: {fileID: 1123284777429964546}
   - component: {fileID: 1123284777429964547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1785,9 +1785,9 @@ GameObject:
   - component: {fileID: 1123284777504983343}
   - component: {fileID: 1123284777504983337}
   - component: {fileID: 1123284777504983342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1893,9 +1893,9 @@ GameObject:
   - component: {fileID: 1123284777517686261}
   - component: {fileID: 1123284777517686263}
   - component: {fileID: 1123284777517686260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2001,9 +2001,9 @@ GameObject:
   - component: {fileID: 1123284777550623486}
   - component: {fileID: 1123284777550623480}
   - component: {fileID: 1123284777550623481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2109,9 +2109,9 @@ GameObject:
   - component: {fileID: 1123284777601629109}
   - component: {fileID: 1123284777601629111}
   - component: {fileID: 1123284777601629108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2217,9 +2217,9 @@ GameObject:
   - component: {fileID: 1123284777657385447}
   - component: {fileID: 1123284777657385441}
   - component: {fileID: 1123284777657385446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2325,9 +2325,9 @@ GameObject:
   - component: {fileID: 1123284777680059808}
   - component: {fileID: 1123284777680059810}
   - component: {fileID: 1123284777680059811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2433,9 +2433,9 @@ GameObject:
   - component: {fileID: 1123284777759843686}
   - component: {fileID: 1123284777759843680}
   - component: {fileID: 1123284777759843681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2541,9 +2541,9 @@ GameObject:
   - component: {fileID: 1123284777812530558}
   - component: {fileID: 1123284777812530552}
   - component: {fileID: 1123284777812530553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (31)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2649,9 +2649,9 @@ GameObject:
   - component: {fileID: 1123284777822346302}
   - component: {fileID: 1123284777822346296}
   - component: {fileID: 1123284777822346297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2757,9 +2757,9 @@ GameObject:
   - component: {fileID: 1123284777877230288}
   - component: {fileID: 1123284777877230290}
   - component: {fileID: 1123284777877230291}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2865,9 +2865,9 @@ GameObject:
   - component: {fileID: 1123284777892452625}
   - component: {fileID: 1123284777892452627}
   - component: {fileID: 1123284777892452624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (30)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2973,9 +2973,9 @@ GameObject:
   - component: {fileID: 1123284777945724506}
   - component: {fileID: 1123284777945724500}
   - component: {fileID: 1123284777945724501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle_2 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3081,9 +3081,9 @@ GameObject:
   - component: {fileID: 1123284778006973864}
   - component: {fileID: 1123284778006973866}
   - component: {fileID: 1123284778006973867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3189,9 +3189,9 @@ GameObject:
   - component: {fileID: 1123284778024857676}
   - component: {fileID: 1123284778024857678}
   - component: {fileID: 1123284778024857679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3297,9 +3297,9 @@ GameObject:
   - component: {fileID: 1123284778035447666}
   - component: {fileID: 1123284778035447660}
   - component: {fileID: 1123284778035447661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (26)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3405,9 +3405,9 @@ GameObject:
   - component: {fileID: 1123284778065434458}
   - component: {fileID: 1123284778065434452}
   - component: {fileID: 1123284778065434453}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3513,9 +3513,9 @@ GameObject:
   - component: {fileID: 1123284778081355373}
   - component: {fileID: 1123284778081355375}
   - component: {fileID: 1123284778081355372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3621,9 +3621,9 @@ GameObject:
   - component: {fileID: 1123284778270454650}
   - component: {fileID: 1123284778270454644}
   - component: {fileID: 1123284778270454645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3729,9 +3729,9 @@ GameObject:
   - component: {fileID: 1123284778351781912}
   - component: {fileID: 1123284778351781914}
   - component: {fileID: 1123284778351781915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3835,7 +3835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1123284778372848253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3909,9 +3909,9 @@ GameObject:
   - component: {fileID: 1123284778380488167}
   - component: {fileID: 1123284778380488161}
   - component: {fileID: 1123284778380488166}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4016,9 +4016,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1123284778406279212}
   - component: {fileID: 1123284778406279215}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4098,9 +4098,9 @@ GameObject:
   - component: {fileID: 1123284778471253310}
   - component: {fileID: 1123284778471253304}
   - component: {fileID: 1123284778471253305}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (28)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4206,9 +4206,9 @@ GameObject:
   - component: {fileID: 1123284778494738151}
   - component: {fileID: 1123284778494738145}
   - component: {fileID: 1123284778494738150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (25)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4314,9 +4314,9 @@ GameObject:
   - component: {fileID: 1123284778515985552}
   - component: {fileID: 1123284778515985554}
   - component: {fileID: 1123284778515985555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4422,9 +4422,9 @@ GameObject:
   - component: {fileID: 1123284778534656186}
   - component: {fileID: 1123284778534656180}
   - component: {fileID: 1123284778534656181}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4530,9 +4530,9 @@ GameObject:
   - component: {fileID: 1123284778544564821}
   - component: {fileID: 1123284778544564823}
   - component: {fileID: 1123284778544564820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

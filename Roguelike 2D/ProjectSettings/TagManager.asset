@@ -12,6 +12,8 @@ TagManager:
   - StartingRoom
   - Room
   - Boss
+  - Obstacle
+  - MM_Icons
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Minimap Visible
+  - Minimap Icons
   - 
   - 
   - 
