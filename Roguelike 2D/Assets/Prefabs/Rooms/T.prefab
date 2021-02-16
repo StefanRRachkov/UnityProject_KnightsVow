@@ -1,5 +1,113 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1272818070186575834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8065226294546345210}
+  - component: {fileID: 130184271901492115}
+  - component: {fileID: 6261596260211862085}
+  m_Layer: 9
+  m_Name: MinimapWall (1)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8065226294546345210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272818070186575834}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.768085, y: -5.1143055, z: 1.0693309}
+  m_LocalScale: {x: 1.5, y: 0.099999994, z: 0.099999994}
+  m_Children: []
+  m_Father: {fileID: 5056806864165275355}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &130184271901492115
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272818070186575834}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 1206ca0f363371f46824dbe56a815c66, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12, y: 12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &6261596260211862085
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272818070186575834}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12, y: 12}
+    newSize: {x: 12, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12, y: 12}
+  m_EdgeRadius: 0
 --- !u!1 &2638325328580374620
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +291,7 @@ GameObject:
   - component: {fileID: 3660647226802019251}
   - component: {fileID: 3660647226802019249}
   - component: {fileID: 3660647226802019250}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (15)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -291,7 +399,7 @@ GameObject:
   - component: {fileID: 3660647226849377258}
   - component: {fileID: 3660647226849377256}
   - component: {fileID: 3660647226849377257}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -399,7 +507,7 @@ GameObject:
   - component: {fileID: 3660647226868801109}
   - component: {fileID: 3660647226868801107}
   - component: {fileID: 3660647226868801108}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (31)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -507,7 +615,7 @@ GameObject:
   - component: {fileID: 3660647226902536324}
   - component: {fileID: 3660647226902536322}
   - component: {fileID: 3660647226902536323}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (20)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -615,7 +723,7 @@ GameObject:
   - component: {fileID: 3660647226962054565}
   - component: {fileID: 3660647226962054563}
   - component: {fileID: 3660647226962054564}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (27)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -721,7 +829,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3660647227016474673}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +903,7 @@ GameObject:
   - component: {fileID: 3660647227061910043}
   - component: {fileID: 3660647227061910041}
   - component: {fileID: 3660647227061910042}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (6)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -903,7 +1011,7 @@ GameObject:
   - component: {fileID: 3660647227081775439}
   - component: {fileID: 3660647227081775437}
   - component: {fileID: 3660647227081775438}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1011,7 +1119,7 @@ GameObject:
   - component: {fileID: 3660647227144116559}
   - component: {fileID: 3660647227144116557}
   - component: {fileID: 3660647227144116558}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (23)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1119,7 +1227,7 @@ GameObject:
   - component: {fileID: 3660647227160996121}
   - component: {fileID: 3660647227160996119}
   - component: {fileID: 3660647227160996120}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (17)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1227,7 +1335,7 @@ GameObject:
   - component: {fileID: 3660647227195979334}
   - component: {fileID: 3660647227195979332}
   - component: {fileID: 3660647227195979333}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (5)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1335,7 +1443,7 @@ GameObject:
   - component: {fileID: 3660647227249504249}
   - component: {fileID: 3660647227249504247}
   - component: {fileID: 3660647227249504248}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (8)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1443,7 +1551,7 @@ GameObject:
   - component: {fileID: 3660647227317553973}
   - component: {fileID: 3660647227317553971}
   - component: {fileID: 3660647227317553972}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (11)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1551,7 +1659,7 @@ GameObject:
   - component: {fileID: 3660647227420820757}
   - component: {fileID: 3660647227420820755}
   - component: {fileID: 3660647227420820756}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (5)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1659,7 +1767,7 @@ GameObject:
   - component: {fileID: 3660647227526915540}
   - component: {fileID: 3660647227526915538}
   - component: {fileID: 3660647227526915539}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (22)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1767,7 +1875,7 @@ GameObject:
   - component: {fileID: 3660647227617606858}
   - component: {fileID: 3660647227617606856}
   - component: {fileID: 3660647227617606857}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (3)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1875,7 +1983,7 @@ GameObject:
   - component: {fileID: 3660647227647448979}
   - component: {fileID: 3660647227647448977}
   - component: {fileID: 3660647227647448978}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (2)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1983,7 +2091,7 @@ GameObject:
   - component: {fileID: 3660647227711280119}
   - component: {fileID: 3660647227711280117}
   - component: {fileID: 3660647227711280118}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (4)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2091,7 +2199,7 @@ GameObject:
   - component: {fileID: 3660647227719984978}
   - component: {fileID: 3660647227719984976}
   - component: {fileID: 3660647227719984977}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (24)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2199,7 +2307,7 @@ GameObject:
   - component: {fileID: 3660647227741911934}
   - component: {fileID: 3660647227741911932}
   - component: {fileID: 3660647227741911933}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (30)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2307,7 +2415,7 @@ GameObject:
   - component: {fileID: 3660647227758836065}
   - component: {fileID: 3660647227758836063}
   - component: {fileID: 3660647227758836064}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (16)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2415,7 +2523,7 @@ GameObject:
   - component: {fileID: 3660647227812401109}
   - component: {fileID: 3660647227812401107}
   - component: {fileID: 3660647227812401108}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (13)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2523,7 +2631,7 @@ GameObject:
   - component: {fileID: 3660647227829668538}
   - component: {fileID: 3660647227829668536}
   - component: {fileID: 3660647227829668537}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (26)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2631,7 +2739,7 @@ GameObject:
   - component: {fileID: 3660647227850746032}
   - component: {fileID: 3660647227850746030}
   - component: {fileID: 3660647227850746031}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (18)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2739,7 +2847,7 @@ GameObject:
   - component: {fileID: 3660647227878000086}
   - component: {fileID: 3660647227878000084}
   - component: {fileID: 3660647227878000085}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (14)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2847,7 +2955,7 @@ GameObject:
   - component: {fileID: 3660647227880912950}
   - component: {fileID: 3660647227880912948}
   - component: {fileID: 3660647227880912949}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (28)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2955,7 +3063,7 @@ GameObject:
   - component: {fileID: 3660647227914707577}
   - component: {fileID: 3660647227914707575}
   - component: {fileID: 3660647227914707576}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (1)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3063,7 +3171,7 @@ GameObject:
   - component: {fileID: 3660647227939832748}
   - component: {fileID: 3660647227939832746}
   - component: {fileID: 3660647227939832747}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (7)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3171,7 +3279,7 @@ GameObject:
   - component: {fileID: 3660647227994978886}
   - component: {fileID: 3660647227994978884}
   - component: {fileID: 3660647227994978885}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (19)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3279,7 +3387,7 @@ GameObject:
   - component: {fileID: 3660647228024422330}
   - component: {fileID: 3660647228024422328}
   - component: {fileID: 3660647228024422329}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (10)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3387,7 +3495,7 @@ GameObject:
   - component: {fileID: 3660647228034215977}
   - component: {fileID: 3660647228034215975}
   - component: {fileID: 3660647228034215976}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3495,7 +3603,7 @@ GameObject:
   - component: {fileID: 3660647228077620993}
   - component: {fileID: 3660647228077621119}
   - component: {fileID: 3660647228077620992}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (12)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3603,7 +3711,7 @@ GameObject:
   - component: {fileID: 3660647228147262921}
   - component: {fileID: 3660647228147262919}
   - component: {fileID: 3660647228147262920}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (21)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3711,7 +3819,7 @@ GameObject:
   - component: {fileID: 3660647228172576490}
   - component: {fileID: 3660647228172576488}
   - component: {fileID: 3660647228172576489}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3819,7 +3927,7 @@ GameObject:
   - component: {fileID: 3660647228206476978}
   - component: {fileID: 3660647228206476976}
   - component: {fileID: 3660647228206476977}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (25)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3927,7 +4035,7 @@ GameObject:
   - component: {fileID: 3660647228292021979}
   - component: {fileID: 3660647228292021977}
   - component: {fileID: 3660647228292021978}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (32)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4035,7 +4143,7 @@ GameObject:
   - component: {fileID: 3660647228354242750}
   - component: {fileID: 3660647228354242748}
   - component: {fileID: 3660647228354242749}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (6)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4143,7 +4251,7 @@ GameObject:
   - component: {fileID: 3660647228403300428}
   - component: {fileID: 3660647228403300426}
   - component: {fileID: 3660647228403300427}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (29)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4251,7 +4359,7 @@ GameObject:
   - component: {fileID: 3660647228432297842}
   - component: {fileID: 3660647228432297840}
   - component: {fileID: 3660647228432297841}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Obstacle_2 (8)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4359,7 +4467,7 @@ GameObject:
   - component: {fileID: 3660647228471019595}
   - component: {fileID: 3660647228471019593}
   - component: {fileID: 3660647228471019594}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (9)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4466,7 +4574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3660647228590439630}
   - component: {fileID: 3660647228590439629}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4568,6 +4676,7 @@ Transform:
   - {fileID: 3660647227016474673}
   - {fileID: 4044654009504657970}
   - {fileID: 850527063408428848}
+  - {fileID: 5056806864165275355}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4594,7 +4703,7 @@ GameObject:
   - component: {fileID: 3660647228909134869}
   - component: {fileID: 3660647228909134867}
   - component: {fileID: 3660647228909134868}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (4)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4702,7 +4811,7 @@ GameObject:
   - component: {fileID: 3660647228918963491}
   - component: {fileID: 3660647228918963489}
   - component: {fileID: 3660647228918963490}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Wall (7)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4799,6 +4908,114 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12, y: 12}
   m_EdgeRadius: 0
+--- !u!1 &3895453897593514573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4404361515500784408}
+  - component: {fileID: 4964161487393590977}
+  - component: {fileID: 677717598204308783}
+  m_Layer: 9
+  m_Name: MinimapWall (5)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404361515500784408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895453897593514573}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.468085, y: 4.5, z: 1.0693309}
+  m_LocalScale: {x: 0.59999996, y: 0.099999994, z: 0.099999994}
+  m_Children: []
+  m_Father: {fileID: 5056806864165275355}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4964161487393590977
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895453897593514573}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 1206ca0f363371f46824dbe56a815c66, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12, y: 12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &677717598204308783
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895453897593514573}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12, y: 12}
+    newSize: {x: 12, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12, y: 12}
+  m_EdgeRadius: 0
 --- !u!1 &4015450928717351395
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,6 +5060,257 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waitTime: 4
+--- !u!1 &5213419984470510318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7776570285226869843}
+  - component: {fileID: 7736998521547701846}
+  - component: {fileID: 911420448130282762}
+  m_Layer: 9
+  m_Name: MinimapWall (3)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7776570285226869843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5213419984470510318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.368086, y: -0.3143056, z: 1.0693309}
+  m_LocalScale: {x: 0.099999994, y: 0.9, z: 0.099999994}
+  m_Children: []
+  m_Father: {fileID: 5056806864165275355}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7736998521547701846
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5213419984470510318}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 1206ca0f363371f46824dbe56a815c66, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12, y: 12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &911420448130282762
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5213419984470510318}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12, y: 12}
+    newSize: {x: 12, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12, y: 12}
+  m_EdgeRadius: 0
+--- !u!1 &6570817471638459013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5056806864165275355}
+  m_Layer: 9
+  m_Name: Minimap Icons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5056806864165275355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6570817471638459013}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.768085, y: 0.114305556, z: -1.0693309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8065226294546345210}
+  - {fileID: 882613812796566230}
+  - {fileID: 7776570285226869843}
+  - {fileID: 700255812637763302}
+  - {fileID: 4404361515500784408}
+  m_Father: {fileID: 3660647228895230672}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6870782306709648195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 700255812637763302}
+  - component: {fileID: 289410452133537581}
+  - component: {fileID: 7981481068864007062}
+  m_Layer: 9
+  m_Name: MinimapWall (4)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &700255812637763302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870782306709648195}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.168085, y: 4.5, z: 1.0693309}
+  m_LocalScale: {x: 0.59999996, y: 0.099999994, z: 0.099999994}
+  m_Children: []
+  m_Father: {fileID: 5056806864165275355}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &289410452133537581
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870782306709648195}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 1206ca0f363371f46824dbe56a815c66, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12, y: 12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &7981481068864007062
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6870782306709648195}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12, y: 12}
+    newSize: {x: 12, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12, y: 12}
+  m_EdgeRadius: 0
 --- !u!1 &7004534399331568497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,6 +5343,114 @@ Transform:
   m_Father: {fileID: 3660647228895230672}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7305894133064094629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 882613812796566230}
+  - component: {fileID: 6489411281163525554}
+  - component: {fileID: 8538907210483081153}
+  m_Layer: 9
+  m_Name: MinimapWall (2)
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &882613812796566230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305894133064094629}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -25.168085, y: -0.3143056, z: 1.0693309}
+  m_LocalScale: {x: 0.099999994, y: 0.9, z: 0.099999994}
+  m_Children: []
+  m_Father: {fileID: 5056806864165275355}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6489411281163525554
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305894133064094629}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 1206ca0f363371f46824dbe56a815c66, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12, y: 12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &8538907210483081153
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305894133064094629}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12, y: 12}
+    newSize: {x: 12, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12, y: 12}
+  m_EdgeRadius: 0
 --- !u!1 &7348964747497364053
 GameObject:
   m_ObjectHideFlags: 0
